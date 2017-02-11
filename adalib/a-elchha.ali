@@ -1,0 +1,56 @@
+V "GNAT Lib v6"
+A -nostdinc
+A -O2
+A -gnatA
+A --RTS=/home/chouteau/src/github/zfp-hifive1/
+A -gnatg
+A -gnatp
+A -gnatn2
+A -ffunction-sections
+A -fdata-sections
+A -march=rv32imac
+A -mabi=ilp32
+A -fno-dwarf2-cfi-asm
+P ZX
+
+RN
+RV NO_UNCHECKED_CONVERSION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U ada.exceptions.last_chance_handler%b  a-elchha.adb  55944415 NE OL PR SU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.unchecked_conversion%s
+W system%s		system.ads		system.ali
+W system.machine_reset%s  s-macres.adb		s-macres.ali
+
+U ada.exceptions.last_chance_handler%s  a-elchha.ads  672be1f6 NE OL SU
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20170211214844 3ffc8e18 ada%s
+D a-except.ads		20170211214844 5b5f0f2f ada.exceptions%s
+D a-elchha.ads		20170211214844 ab91896f ada.exceptions.last_chance_handler%s
+D a-elchha.adb		20170211214844 78b7f4da ada.exceptions.last_chance_handler%b
+D a-unccon.ads		20170211214844 f9eb8f06 ada.unchecked_conversion%s
+D system.ads		20170211214844 97e567b6 system%s
+D s-macres.ads		20170211214844 7f59b6a6 system.machine_reset%s
+X 1 ada.ads
+16K9*Ada 19e8 3|36r11 39r8 40r19 4|34r6 37r11 44r5
+X 2 a-except.ads
+42K13*Exceptions 71e19 3|36r15 39r12 40r23 4|37r15 44r9
+X 3 a-elchha.ads
+36U26*Last_Chance_Handler 2|42k13 3|37>4 37>26 39i<c,__gnat_last_chance_handler>23
+. 40r34 4|37b26 44l20 44t39
+37m4 Msg{6|90M9} 4|38b4
+37i26 Line{integer} 4|38b26
+X 5 a-unccon.ads
+20v14*Unchecked_Conversion 4|34w10
+X 6 system.ads
+60K9*System 3|34w6 37r10 4|35r6 38r10 43r4 6|172e11
+90M9*Address 3|37r17 4|38r17
+X 7 s-macres.ads
+36K16*Machine_Reset 4|35w13 43r11 7|40e25
+37U14*Stop 4|43s25
+
