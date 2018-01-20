@@ -1,8 +1,8 @@
-V "GNAT Lib v6"
+V "GNAT Lib v7"
 A -nostdinc
 A -O2
 A -gnatA
-A --RTS=/home/chouteau/src/github/zfp-hifive1/
+A --RTS=/home/chouteau/src/github/freedom-e-sdk/Ada_Drivers_Library/examples/HiFive1/zfp-hifive1/
 A -gnatg
 A -gnatp
 A -gnatn2
@@ -10,7 +10,6 @@ A -ffunction-sections
 A -fdata-sections
 A -march=rv32imac
 A -mabi=ilp32
-A -fno-dwarf2-cfi-asm
 P ZX
 
 RN
@@ -28,11 +27,11 @@ W unchecked_conversion%s
 U system.memory%s	s-memory.ads		05abdf54 EB NE OL PK
 W system%s		system.ads		system.ali
 
-D system.ads		20170211214844 97e567b6 system%s
-D s-memory.ads		20170211214844 924eb8e2 system.memory%s
-D s-memory.adb		20170211214844 608ac0a4 system.memory%b
-D s-stoele.ads		20170211214844 2dc34a04 system.storage_elements%s
-D unchconv.ads		20170211214844 ca2f9e18 unchecked_conversion%s
+D system.ads		20180120184059 97e567b6 system%s
+D s-memory.ads		20180120184059 924eb8e2 system.memory%s
+D s-memory.adb		20180120184059 608ac0a4 system.memory%b
+D s-stoele.ads		20180120184059 2dc34a04 system.storage_elements%s
+D unchconv.ads		20180120184059 ca2f9e18 unchecked_conversion%s
 X 1 system.ads
 60K9*System 172e11 2|39r9 47r42 73r5 3|34r6 37r14 39r24 59r43 62r65 65r26
 . 72r42 101r43 111r51 121r26 127r5

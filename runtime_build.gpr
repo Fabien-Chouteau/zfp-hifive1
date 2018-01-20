@@ -1,6 +1,6 @@
 with "target_options.gpr"; 
 
-project Runtime_Build is
+Library project Runtime_Build is
   for Languages use ("Ada", "Asm_Cpp");
   for Target use "riscv32-unknown-elf";
   

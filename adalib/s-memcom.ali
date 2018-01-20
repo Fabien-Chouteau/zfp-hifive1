@@ -1,8 +1,8 @@
-V "GNAT Lib v6"
+V "GNAT Lib v7"
 A -nostdinc
 A -O2
 A -gnatA
-A --RTS=/home/chouteau/src/github/zfp-hifive1/
+A --RTS=/home/chouteau/src/github/freedom-e-sdk/Ada_Drivers_Library/examples/HiFive1/zfp-hifive1/
 A -gnatg
 A -gnatp
 A -gnatn2
@@ -10,7 +10,6 @@ A -ffunction-sections
 A -fdata-sections
 A -march=rv32imac
 A -mabi=ilp32
-A -fno-dwarf2-cfi-asm
 P ZX
 
 RN
@@ -31,13 +30,13 @@ W interfaces%s		interfac.ads		interfac.ali
 W interfaces.c%s	i-c.ads			i-c.ali
 W system%s		system.ads		system.ali
 
-D ada.ads		20170211214844 3ffc8e18 ada%s
-D a-unccon.ads		20170211214844 f9eb8f06 ada.unchecked_conversion%s
-D interfac.ads		20170211214844 5ab55268 interfaces%s
-D i-c.ads		20170211214844 ed15b264 interfaces.c%s
-D system.ads		20170211214844 97e567b6 system%s
-D s-memcom.ads		20170211214844 48f98691 system.memory_compare%s
-D s-memcom.adb		20170211214844 fa22a970 system.memory_compare%b
+D ada.ads		20180120184059 3ffc8e18 ada%s
+D a-unccon.ads		20180120184059 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20180120184059 5ab55268 interfaces%s
+D i-c.ads		20180120184059 ed15b264 interfaces.c%s
+D system.ads		20180120184059 97e567b6 system%s
+D s-memcom.ads		20180120184059 48f98691 system.memory_compare%s
+D s-memcom.adb		20180120184059 fa22a970 system.memory_compare%b
 X 1 ada.ads
 16K9*Ada 19e8 7|32r6 40r30
 X 2 a-unccon.ads

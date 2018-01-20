@@ -1,8 +1,8 @@
-V "GNAT Lib v6"
+V "GNAT Lib v7"
 A -nostdinc
 A -O2
 A -gnatA
-A --RTS=/home/chouteau/src/github/zfp-hifive1/
+A --RTS=/home/chouteau/src/github/freedom-e-sdk/Ada_Drivers_Library/examples/HiFive1/zfp-hifive1/
 A -gnatg
 A -gnatp
 A -gnatn2
@@ -10,7 +10,6 @@ A -ffunction-sections
 A -fdata-sections
 A -march=rv32imac
 A -mabi=ilp32
-A -fno-dwarf2-cfi-asm
 P ZX
 
 RN
@@ -20,9 +19,9 @@ RV SPARK_05
 U gnat.source_info%s	g-souinf.ads		82fca8a5 NE OL PR PK
 W gnat%s		gnat.ads		gnat.ali
 
-D gnat.ads		20170211214844 fd2ad2f1 gnat%s
-D g-souinf.ads		20170211214844 7fd67a54 gnat.source_info%s
-D system.ads		20170211214844 97e567b6 system%s
+D gnat.ads		20180120184059 fd2ad2f1 gnat%s
+D g-souinf.ads		20180120184059 7fd67a54 gnat.source_info%s
+D system.ads		20180120184059 97e567b6 system%s
 X 1 gnat.ads
 34K9*GNAT 37e9 2|39r9 98r5
 X 2 g-souinf.ads
